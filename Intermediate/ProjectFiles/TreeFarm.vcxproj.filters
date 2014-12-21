@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TreeFarm.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{4F6A71DC-7A05-47DE-91CE-096804020816}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TreeFarm.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TreeFarmEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DB0FD9A0-2F1D-45E0-8658-567F29712408}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TreeFarm">
+			<UniqueIdentifier>{133ED4D5-30F3-49B7-A04E-5055760AE498}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TreeFarm\TreeFarm.Build.cs">
+			<Filter>Source\TreeFarm</Filter>
+		</None >
+		<Filter Include="Source\TreeFarm\Private">
+			<UniqueIdentifier>{B97301EA-4F92-41B1-B83E-48678F2C3F4B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TreeFarm\Private\TreeFarm.cpp">
+			<Filter>Source\TreeFarm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TreeFarm\Private\TreeFarmCharacter.cpp">
+			<Filter>Source\TreeFarm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TreeFarm\Private\TreeFarmGameMode.cpp">
+			<Filter>Source\TreeFarm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TreeFarm\Private\TreeFarmHUD.cpp">
+			<Filter>Source\TreeFarm\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\TreeFarm\Private\TreeFarmProjectile.cpp">
+			<Filter>Source\TreeFarm\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\TreeFarm\Public">
+			<UniqueIdentifier>{3E56E0B0-3E08-4BA4-9FF5-D254A77E7E4A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\TreeFarm\Public\TreeFarm.h">
+			<Filter>Source\TreeFarm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TreeFarm\Public\TreeFarmCharacter.h">
+			<Filter>Source\TreeFarm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TreeFarm\Public\TreeFarmGameMode.h">
+			<Filter>Source\TreeFarm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TreeFarm\Public\TreeFarmHUD.h">
+			<Filter>Source\TreeFarm\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\TreeFarm\Public\TreeFarmProjectile.h">
+			<Filter>Source\TreeFarm\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\TreeFarm\Resources">
+			<UniqueIdentifier>{4136F3CF-CB74-4B33-833F-A1F1885376C9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\TreeFarm\Resources\Windows">
+			<UniqueIdentifier>{30B6BF1B-F259-40DD-9D57-FE55E407AE91}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\TreeFarm\Resources\Windows\TreeFarm.rc">
+			<Filter>Source\TreeFarm\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
